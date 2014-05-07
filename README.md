@@ -11,6 +11,12 @@ See http://www.obdev.at/products/launchbar/index.html for more information.
 include launchbar
 ```
 
+## Hiera Data
+
+```yaml
+launchbar::version: 5.6.4
+```
+
 ## Required Puppet Modules
 
 * `boxen`
