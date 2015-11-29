@@ -15,11 +15,11 @@
 # with hiera data for "launchbar::version"
 #
 class launchbar(
-  $version = '6.1.1'
+  $version = '6.5'
 ) {
   package { 'Launchbar':
     ensure   => installed,
     provider => 'appdmg_eula',
-    source   => "http://www.obdev.at/downloads/launchbar/LaunchBar-${version}.dmg",
+    source   => "https://www.obdev.at/downloads/launchbar/LaunchBar-${version}.dmg",
   }
 }
